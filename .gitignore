@@ -1,0 +1,12 @@
+# raw data (downloaded by the notebook; files are larger than GitHub's 100 MB limit)
+data/
+
+# regenerable outputs
+*.npy
+scores_*.csv
+
+# editor / OS / Office temp files
+.vscode/
+.ipynb_checkpoints/
+__pycache__/
+~$*
