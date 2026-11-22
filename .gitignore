@@ -10,3 +10,10 @@ scores_*.csv
 .ipynb_checkpoints/
 __pycache__/
 ~$*
+
+# output folder: only the trained TGN model and the stored test negatives are tracked,
+# so a fresh clone (e.g. on Colab) loads the model instead of retraining for ~1 hour
+output/*
+!output/tgn_memory_mixed_full.pt
+!output/neg_rand_test.npy
+!output/neg_hist_test.npy
